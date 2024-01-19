@@ -39,6 +39,7 @@ public class HomeActivity extends AppCompatActivity {
 
         binding.homelogout.setOnClickListener(new View.OnClickListener() {
             @Override
+            //sign out button
             public void onClick(View v) {
                 firebaseAuth.signOut();
                 checkUser();
