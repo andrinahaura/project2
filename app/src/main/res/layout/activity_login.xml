@@ -40,11 +40,24 @@
         android:layout_marginTop="10dp"
         />
 
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/R_txt_1"
+        android:text="Let’s help you meet up your tasks."
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/poppinsregular"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/R_txt_2"
+        />
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:src="@drawable/gambar3"
-        android:layout_below="@id/R_txt_1"
+        android:layout_below="@id/R_txt_2"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="20dp"
         android:id="@+id/L_img_2"
